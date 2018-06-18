@@ -1,0 +1,44 @@
+センサーから展示会場の人数を貰ってTotalMixのMasterVolumeをコントロールするアプリ。
+使用手順
+インターフェイスを認識させた状態で
+TotalMix > Options > Enable OSC Contrloにチェック
+TotalMix > Options > SettingsでPort(incoming)が7001になっているか確認。なってなかったら変更。
+TotalMixで制御したいチャンネルのフェーダーグループを組む。
+
+4種類の制御方法が同時に動いているので、センサーの人と話して、どのモードを使うかそれぞれの作品で決めてください。
+/sound/coungestion/peopleCount i
+会場にいる人数を受け取る
+
+/sound/coungestion/touchCount i
+単位時間あたり(センサー側で設定)のタッチの総数
+
+/sound/coungestion/touch i(なんでもいい)
+1タッチ毎に信号を貰ってこのアプリでtouchCountを計算する
+
+/sound/coungestion/degree f(0. - 1.)
+混雑具合を0.-1.で貰う
+
+各パラメーター
+
+SensingMode
+使用するモードを選択する
+
+maxVol/minVol
+フェーダーの動く範囲を指定[dB]
+
+SensingInterval
+基本的にOSCが送られてくる頻度に設定する。[ms]
+センサーから送られてくるtouch信号のカウントをリセットする値[ms]
+この値をかけて計算した数値の間を補間します。
+音量があまりにも上下するようだったら上げてください。(OSCの頻度の整数倍とかがいいかも)
+
+MaxPeopleCount
+会場の最大収容人数
+この人数で音量が最大になる
+
+MaxTouchCount
+TouchCalcIntervalで指定した値の間の最大touch数
+TouchCountで送られてくる時間あたりの最大touch数
+
+最終更新
+2018/06/07
