@@ -10,11 +10,12 @@
 					"sensingInterval" : [ 1000 ],
 					"sensingMode" : [ 2.0 ],
 					"volumeCurve" : [ 1.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 1.0, 0, -0.495, "curve" ],
+					"minVol" : [ -6.0 ],
+					"maxVol" : [ 0.0 ],
+					"totalmixPort" : [ 7001 ],
 					"bpatcher_osc_receiver::receive_port_num" : [ 7474 ],
 					"bpatcher_osc_receiver::osc_addresses" : [ "/sound/congestion/peopleCount", "/sound/congestion/touchCount", "/sound/congestion/degree", "/sound/congestion/touch" ],
-					"bpatcher_osc_receiver::works_name" : [ "congestion" ],
-					"minVol" : [ -6.0 ],
-					"maxVol" : [ 0.0 ]
+					"bpatcher_osc_receiver::works_name" : [ "congestion" ]
 				}
 
 			}
