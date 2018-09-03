@@ -8,7 +8,7 @@
 					"maxPeopleCount" : [ 200 ],
 					"maxTouchCount" : [ 200 ],
 					"sensingInterval" : [ 1000 ],
-					"sensingMode" : [ 2.0 ],
+					"sensingMode" : [ 0.0 ],
 					"volumeCurve" : [ 1.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 1.0, 0, -0.495, "curve" ],
 					"minVol" : [ -6.0 ],
 					"maxVol" : [ 0.0 ],
