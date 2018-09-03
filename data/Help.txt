@@ -3,7 +3,6 @@
 インターフェイスを認識させた状態で
 TotalMix > Options > Enable OSC Contrloにチェック
 TotalMix > Options > SettingsでPort(incoming)が7001になっているか確認。なってなかったら変更。
-TotalMixで制御したいチャンネルのフェーダーグループを組む。
 
 4種類の制御方法が同時に動いているので、センサーの人と話して、どのモードを使うかそれぞれの作品で決めてください。
 /sound/coungestion/peopleCount i
@@ -41,4 +40,4 @@ TouchCalcIntervalで指定した値の間の最大touch数
 TouchCountで送られてくる時間あたりの最大touch数
 
 最終更新
-2018/06/07
+2018/09/03

@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 892.0, 84.0, 1237.0, 1087.0 ],
+		"rect" : [ 876.0, 90.0, 420.0, 460.0 ],
 		"openrect" : [ 0.0, 0.0, 420.0, 460.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -26,7 +26,7 @@
 		"toptoolbarpinned" : 0,
 		"righttoolbarpinned" : 0,
 		"bottomtoolbarpinned" : 0,
-		"toolbars_unpinned_last_save" : 0,
+		"toolbars_unpinned_last_save" : 15,
 		"tallnewobj" : 0,
 		"boxanimatetime" : 200,
 		"enablehscroll" : 1,
@@ -58,7 +58,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 654.0, 950.0, 93.0, 22.0 ],
-					"presentation_rect" : [ 622.0, 748.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "/1/busOutput 1."
 				}
