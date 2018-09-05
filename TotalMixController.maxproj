@@ -1,8 +1,8 @@
 {
 	"name" : "TotalMixController",
 	"version" : 1,
-	"creationdate" : -683732853,
-	"modificationdate" : -683654994,
+	"creationdate" : -683733095,
+	"modificationdate" : 3619016749,
 	"viewrect" : [ 25.0, 70.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -17,6 +17,21 @@
 			}
 ,
 			"bpatcher_osc_receiver.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"bpatcher_outputFaderController.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"bpatcher_UCXSettings.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"bpatcher_802Settings.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
