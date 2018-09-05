@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ -464.0, -1001.0, 1322.0, 716.0 ],
+		"rect" : [ -427.0, -966.0, 700.0, 460.0 ],
 		"openrect" : [ 0.0, 0.0, 700.0, 460.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -26,7 +26,7 @@
 		"toptoolbarpinned" : 0,
 		"righttoolbarpinned" : 0,
 		"bottomtoolbarpinned" : 0,
-		"toolbars_unpinned_last_save" : 0,
+		"toolbars_unpinned_last_save" : 15,
 		"tallnewobj" : 0,
 		"boxanimatetime" : 200,
 		"enablehscroll" : 1,
